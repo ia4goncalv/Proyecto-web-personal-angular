@@ -1,0 +1,34 @@
+*PARA CREAR UN PROYECTO NODEJS
+1- Abrimos el cygwyn
+2- Vamos a la carpeta del proyecto, enn este caso "backend"
+3- Escribimos el comando npm init
+4- Escribimos nombre y demás datos. Licencia MIT. Entry point: index.js
+
+*INSTALAR DEPENDENCIAS (buscar qué hace cada librería)
+1- En la carpeta del proyecto hacemos un npm install express --save
+npm install body-parser --save
+npm install connect-multiparty --save
+npm install mongoose --save 
+npm install nodemon --save-dev
+
+2-Creamos el fichero index.js
+3-Agregamos la dependencia start en el archivo package.json
+
+*CREAR LA BASE DE DATOS MONGODB
+1- Abrimos el demonio mongod en la carpeta C -> mongodb -> bin -> mongod.exe
+2- Abrimos el estudio 3T
+3- Agregamos database (nombre, etc) click derecho en mongodblocalhost
+4- Agregamos nueva colección (click derecho en collections)
+5- Agregamos nuevo documento en nuestra colección (click en botón add document)
+
+*CONEXIÓN CON LA BASE DE DATOS
+1- Mirar en el archivo index.js los pasos seguidos.
+2- Después de esribir el código, vamos en la terminal del ordenador a la carpeta del proyecto y escribimos npm start.
+
+*CONFIGURACIÓN XPRESS
+1- Creamos un archivo nuevo app.js
+
+*ORDEN 
+1- Primero se crean los modelos y luego los controladores.
+
+
